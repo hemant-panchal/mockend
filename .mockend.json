@@ -2,8 +2,8 @@
   "User": {
     "name": { "string": {} },
     "age": { "number": {} },
-    "comments": {
-      "hasMany": "Comment"
+    "posts": {
+      "hasMany": "Post"
     }
   },
   "Post": {
