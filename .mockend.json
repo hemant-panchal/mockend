@@ -1,4 +1,10 @@
 {
+  "Users": {
+    "data": [
+      {name: 'John Doe', "posts": {"hasMany": "Post"}},
+      {name: 'John Wick', "posts": {"hasMany": "Post"}}
+    ],
+  },
   "Post": {
     "title": { "string": {} },
     "comments": {
