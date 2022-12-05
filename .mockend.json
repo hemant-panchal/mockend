@@ -1,8 +1,8 @@
 {
   "User": {
     "data": [
-      {name: 'John Doe', "posts": {"hasMany": "Post"}},
-      {name: 'John Wick', "posts": {"hasMany": "Post"}}
+      {name: 'John Doe'},
+      {name: 'John Wick'}
     ],
   },
   "Post": {
